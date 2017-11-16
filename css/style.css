@@ -1,0 +1,55 @@
+body{
+  margin:0;
+  padding:0;
+}
+.navbar{
+  width: 100%;
+  background-color: #2852B3;
+  height: 100px;
+}
+.title-navbar{
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+/************ARTICLES************/
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 200px;
+}
+.article{
+  margin: 0 auto;
+  width: 50%;
+}
+.liste-title{
+  list-style: none;
+  font-size: 20px;
+}
+.titleArticle{
+  text-align: center;
+}
+.header-tableau{
+  display: flex;
+  justify-content: flex-start;
+}
+.no-decoration{
+ text-decoration: none;
+ color: black;
+ font-weight: bold;
+}
+.contents-tableau{
+  display: flex;
+  margin-top: 10px;
+}
+.separation{
+  width: 90%;
+}
+.align-title{
+margin: auto;
+}
